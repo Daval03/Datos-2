@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Infinite</class>
+ <widget class="QDialog" name="Infinite">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>815</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>795</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>221</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>103</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>531</x>
+         <y>103</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>228</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>228</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>531</x>
+         <y>228</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>353</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PushButton</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
