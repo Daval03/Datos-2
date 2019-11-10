@@ -1,6 +1,6 @@
 #include <stdint-gcc.h>
 
-class clase25_9_19 {
+class programacion_dinamica {
 public:
     bool maximo(int izq,int der);
     int num;
