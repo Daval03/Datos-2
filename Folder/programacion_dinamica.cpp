@@ -1,4 +1,4 @@
-#include "clase25_9_19.h"
+#include "programacion_dinamica.h"
 #include <iostream>
 #include <cstdlib>
 #include <chrono>
@@ -6,7 +6,7 @@
 #include <math.h>
 using std::time;
 using namespace std;
-clase25_9_19::clase25_9_19() {}
+programacion_dinamica::programacion_dinamica() {}
 int clase25_9_19::fibo(int numero) {
     if(numero==0 || numero==1){
         return numero;
@@ -14,7 +14,7 @@ int clase25_9_19::fibo(int numero) {
         return fibo(numero-2)+fibo(numero-1);
     }
 }
-int clase25_9_19::fiboDynamic(int numero) {
+int programacion_dinamica::fiboDynamic(int numero) {
     int fibo[numero+2];
     fibo[0]=0;
     fibo[1]=1;
@@ -22,22 +22,22 @@ int clase25_9_19::fiboDynamic(int numero) {
         fibo[i]=fibo[i-1]+fibo[i-2];
     }return fibo[numero];
 }
-int clase25_9_19::max(int a[]) {
+int programacion_dinamica::max(int a[]) {
     return maxaux(a,0,num);
 }
-int clase25_9_19::maxaux(int a[], int inf, int sup) {
+int programacion_dinamica::maxaux(int a[], int inf, int sup) {
     if(inf==sup)return a[inf];
     int medio = (inf+sup)/2;
     int maxizq= maxaux(a,inf,medio);
     int maxder=maxaux(a,medio+1,sup);
     return maximo(maxizq,maxder);
 }
-bool clase25_9_19::maximo(int izq, int der) {
+bool programacion_dinamica::maximo(int izq, int der) {
     return izq>der?true:false;
 }
 int main(){
     int numero=40;
-    clase25_9_19 hola;
+    programacion_dinamica hola;
     auto start = std::chrono::system_clock::now();
     int res=hola.fibo(numero);
     auto end = std::chrono::system_clock::now();
